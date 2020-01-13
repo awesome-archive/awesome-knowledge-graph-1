@@ -6,26 +6,58 @@
 ## 目录
 - [理论及论文](#理论及论文)
 - [图谱及数据集](#图谱及数据集)
-- [工具](#工具)
+- [工具及服务](#工具)
 - [白皮书及报告](#白皮书及报告)
 - [机构及人物](#机构及人物)
 - [视频课程](#视频课程)
 - [专栏合集](#专栏合集)
 - [评测竞赛](#评测竞赛)
 - [项目案例](#项目案例)
+- [推广技术文章](#推广技术文章)
 
 
 <!-- /MarkdownTOC -->
 ## 理论及论文
-### 通用
+### 综述-Survey
 
-- [知识图谱构建技术综述](./paper/知识图谱构建技术综述_刘峤.caj)
-- [知识图谱研究进展](./paper/知识图谱研究进展_漆桂林.caj)
-- [医学知识图谱构建技术与研究进展](./paper/医学知识图谱构建技术与研究进展_袁凯琦.caj)
+
+- [Knowledge Graph Construction Techniques](./paper/知识图谱构建技术综述_刘峤.caj)
+- [Review on Knowledge Graph Techniques](./paper/知识图谱技术综述.pdf)
+- [Reviews on Knowledge Graph Research](./paper/知识图谱研究综述-李涓子.pdf)
+- [The Research Advances of Knowledge Graph](./paper/知识图谱研究进展_漆桂林.caj)
+
+
+### Representation&Embedding
+
+- [Knowledge Representation Learning: A Review](./paper/知识表示学习研究进展_刘知远.caj)
+- [Holographic embeddings of knowledge graphs](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewFile/12484/11828)
+- [Context-dependent knowledge graph embedding. EMNLP 2015. Luo, Yuanfei and Wang, Quan and Wang, Bin and Guo, Li.](http://www.aclweb.org/anthology/D15-1191)
+- [GAKE: graph aware knowledge embedding. COLING 2016. Feng, Jun and Huang, Minlie and Yang, Yang and Zhu, Xiaoyan.](http://www.aclweb.org/anthology/C16-1062)
+- [Bootstrapping Entity Alignment with Knowledge Graph Embedding. IJCAI 2018. Zequn Sun, Wei Hu, Qingheng Zhang and Yuzhong Qu.](https://www.ijcai.org/proceedings/2018/0611.pdf)
+- [KBGAN: Adversarial Learning for Knowledge Graph Embeddings. NAACL 2018. Cai, Liwei, and William Yang Wang.](https://arxiv.org/pdf/1711.04071.pdf)
+
+### 命名实体识别-NER
+
+### 实体对齐
+- [A Survey on Entity Alignment of Knowledge Base](./paper/知识库实体对齐技术综述.pdf)
+
+### 推理-Reasoning
+
+- [ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning](./paper/ATOMIC-An_Atlas_of_Machine_Commonsense_for_If-Then_Reasoning.pdf)
+
+
+### 知识库问答-KBQA
 
 ### 动态或时序知识图谱
 
-- [Learning Sequence Encoders for Temporal Knowledge Graph Completion](./paper/Learning Sequence Encoders for Temporal Knowledge Graph Completion.pdf)
+- [Learning Sequence Encoders for Temporal Knowledge Graph Completion](./paper/Learning_Sequence_Encoders_for_Temporal_Knowledge_Graph_Completion.pdf)
+
+### 知识追踪
+- [Knowledge tracing- Modeling the acquisition of procedural knowledge](./paper/Knowledge_tracing-Modeling_the_acquisition_of_procedural_knowledge.pdf)
+- [Individualized Bayesian Knowledge Tracing Models](./paper/Individualized_Bayesian_Knowledge_Tracing_Models.pdf)
+- [Deep Knowledge Tracing](./paper/Deep_Knowledge_Tracing.pdf)
+- [Tracking Knowledge Proficiency of Students with Educational Priors](./paper/Tracking_Knowledge_Proficiency_of_Students_with_Educational_Priors.pdf)
+
 
 
 ## 图谱及数据集
@@ -88,15 +120,15 @@ OAG（Open Academic Graph包含来自MAG的166,192,182篇论文和来自AMiner�
 
 ## 工具
 根据知识图谱的通用基本构建流程为依据，每个阶段都整理部分工具。
-#### 知识建模
+### 知识建模
 
 ### 知识抽取
 #### Deepdive
 
-DeepDive是
 
 
-#### 知识推理
+
+### 知识推理
 
 - [官网地址](http://deepdive.stanford.edu/)
 - [Github地址](https://github.com/HazyResearch/deepdive)
@@ -114,6 +146,7 @@ DeepDive是
 
 ## 白皮书及报告
 - [CCKS2018-知识图谱发展报告](./report/CCKS2018-知识图谱发展报告.pdf)
+- [知识图谱标准化白皮书(2019版)](./report/知识图谱标准化白皮书(2019版).pdf)
 
 
 
@@ -123,18 +156,24 @@ DeepDive是
 #### 机构
 
 #### 人物
-- 刘知远:[清华官网](http://nlp.csai.tsinghua.edu.cn/~lzy/)、[知乎主页]()
-- 漆桂林:
-- 肖仰光:
+- 李娟子:[清华大学网页](http://keg.cs.tsinghua.edu.cn/persons/ljz/)
+- 刘知远:[清华大学网页](http://nlp.csai.tsinghua.edu.cn/~lzy/)、[知乎主页](https://www.zhihu.com/people/zibuyu9/activities)
+- 漆桂林:[东南大学网页](https://cse.seu.edu.cn/2019/0103/c23024a257135/page.htm)
+- 肖仰华:[复旦大学网页](http://gdm.fudan.edu.cn/GDMWiki/Wiki.jsp?page=Yanghuaxiao)
+- 刘康:[中科院网页](http://people.ucas.ac.cn/~liukang)
+- 刘挺:[哈工大网页](http://homepage.hit.edu.cn/liuting)
 - 王昊奋:
 
 
 ## 视频课程
 
 ### 小象学院知识图谱课程
+- [知识图谱](https://www.chinahadoop.cn/course/1048)
 
 
 ### 贪心学院知识图谱课程
+- [知识图谱的技术与应用](https://www.greedyai.com/course/19/summary/introduce)
+- [教你搭建一个工业级知识图谱系统](https://www.greedyai.com/course/30/summary/knowledgeMapProject)
 
 
 ### 炼数成金知识图谱课程
@@ -153,6 +192,13 @@ DeepDive是
 #### 简书集合
 
 ## 评测竞赛
+- [“达观杯”文本智能信息抽取挑战赛](https://www.biendata.com/competition/datagrand/)
+- [CCKS 2019 公众公司公告信息抽取](https://www.biendata.com/competition/ccks_2019_5/)
+- [CCKS 2019 医疗命名实体识别](https://www.biendata.com/competition/ccks_2019_1/)
+- [CCKS 2019 医疗命名实体识别](https://www.biendata.com/competition/ccks_2019_4/)
+- [CCKS 2019 人物关系抽取](https://biendata.com/competition/ccks_2019_ipre/)
+- [CCKS 2019 中文短文本的实体链指](https://biendata.com/competition/ccks_2019_el/)
+- [CCIR 2019 基于电子病历的数据查询类问答](https://www.biendata.com/competition/ccir2019/)
 - [瑞金医院MMC人工智能辅助构建知识图谱大赛](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100066.0.0.457933afBacvqN&raceId=231687)
 - [CCKS 2018 面向中文电子病历的命名实体识别](https://www.biendata.com/competition/CCKS2018_1/)
 - [CCKS 2018 面向音乐领域的命令理解任务](https://www.biendata.com/competition/CCKS2018_2/)
@@ -170,7 +216,7 @@ DeepDive是
 - [BDTC 2018 医疗知识图谱的构建和应用](./conference/医疗知识图谱的构建和应用.pdf)
 - [BDTC 2018 从知识图谱到人工智能：产品演进路径上的思考](./conference/从知识图谱到人工智能-产品演进路径上的思考.pdf)
 - [BDTC 2018 基于cnSchema的大规模金融知识图谱实战](./conference/基于cnSchema的大规模金融知识图谱实战.pdf)
-- [BDTC 2017 Event Extraction from Texts](./conference/Event Extraction from Texts.pdf)
+- [BDTC 2017 Event Extraction from Texts](./conference/Event_Extraction_from_Texts.pdf)
 - [BDTC 2017 知性会话：基于知识图谱的人机对话系统方法与实践](./conference/知性会话-基于知识图谱的人机对话系统方法与实践.pdf)
 - [BDTC 2017 基于图的海量知识图谱数据管理](./conference/基于图的海量知识图谱数据管理.pdf)
 - [CSDN AI 2018 医疗知识图谱的敏捷构建和实践](./conference/医疗知识图谱的敏捷构建和实践.pdf)
@@ -193,6 +239,9 @@ DeepDive是
 #### 利用网络上公开的数据构建一个小型的证券知识图谱/知识库
 - https://github.com/lemonhu/stock-knowledge-graph.git
 
+#### 上市公司高管图谱
+- https://github.com/Shuang0420/knowledge_graph_demo
+
 ### 医疗领域知识图谱
 
 ### 农业领域知识图谱
@@ -200,9 +249,68 @@ DeepDive是
 #### 使用爬虫获取Wikidata数据构建
 - https://github.com/CrisJk/Agriculture-KnowledgeGraph-Data.git
 
-### 佛学知识图谱
-
 
 ### 知识工程领域知识图谱
+
+### 其他知识图谱
+
+#### 红楼梦人物关系图谱
+- https://github.com/chizhu/KGQA_HLM
+
+#### 通用领域知识图谱
+- https://github.com/Pelhans/Z_knowledge_graph
+
+#### 免费1.5亿实体通用领域知识图谱
+- https://github.com/ownthink/KnowledgeGraph
+
+#### 简易电影领域知识图谱及KBQA系统
+- https://github.com/SimmerChan/KG-demo-for-movie
+
+
+## 推广技术文章
+### 2016
+- [构建 LinkedIn 知识图谱
+](https://www.infoq.cn/article/constructing-linkedin-knowledge-map)
+
+
+### 2017
+- [阿里知识图谱首次曝光：每天千万级拦截量，亿级别全量智能审核](https://mp.weixin.qq.com/s/MZE_SXsNg6Yt4dz2fmB1sA)
+- [百度王海峰：知识图谱是 AI 的基石](https://www.infoq.cn/article/2017/11/Knowledge-map-cornerstone-AI)
+- [哈工大刘挺：从知识图谱到事理图谱](https://mp.weixin.qq.com/s/1nl56AdZIkT03gnmimt8nQ)
+- [智能导购？你只看到了阿里知识图谱冰山一角](https://www.csdn.net/article/a/2017-12-08/15937080)
+
+
+
+### 2018
+- [张伟博士：阿里巴巴百亿级别的三元组知识图谱掌舵者](https://www.shangyexinzhi.com/article/details/id-28524/)
+- [知识图谱在互联网金融行业的应用](https://mp.weixin.qq.com/s/YeSzOw6dRNiX32PmdWgLow)
+- [上交大发布知识图谱AceKG，超1亿实体，近100G数据量](https://mp.weixin.qq.com/s/qsRTBR5g5LZ6UR7Wtqagyw)
+- [知识图谱数据构建的“硬骨头”，阿里工程师如何拿下？](https://yq.aliyun.com/articles/544941)
+- [这是一份通俗易懂的知识图谱技术与应用指南](https://www.jiqizhixin.com/articles/2018-06-20-4)
+- [一文揭秘！自底向上构建知识图谱全过程](https://102.alibaba.com/detail?id=134)
+- [健康知识图谱，阿里工程师如何实现？](https://102.alibaba.com/detail?id=176)
+- [为电商而生的知识图谱，如何感应用户需求？](https://yq.aliyun.com/articles/632483)
+- [肖仰华谈知识图谱：知识将比数据更重要，得知识者得天下](https://blog.csdn.net/dQCFKyQDXYm3F8rB0/article/details/83451280)
+- [知识图谱在旅游领域有哪些应用？携程度假团队这样回答](https://mp.weixin.qq.com/s?__biz=MjM5MDI3MjA5MQ==&mid=2697267537&idx=1&sn=3011302613b90749d7ffe0cc3a805d1f)
+- [快手结合知识图谱进行多模态内容理解](https://www.infoq.cn/article/2018/09/Multimedia-Understanding-AI)
+- [腾讯互娱刘伟：知识图谱让AI更有学识](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651009590&idx=4&sn=e684d70e85b17d4bbb3e48f990014a0d&chksm=bdbeca658ac943737373d9a697bd0296c29b8c20b21638b3b58063c36d846bf4e66635efc79c&scene=27#wechat_redirect)
+- [美团大脑：知识图谱的建模方法及其应用](https://tech.meituan.com/2018/11/01/meituan-ai-nlp.html)
+- [美团餐饮娱乐知识图谱——美团大脑揭秘](https://tech.meituan.com/2018/11/22/meituan-brain-nlp-01.html)
+- [人力资源知识图谱搭建及应用](https://www.jiqizhixin.com/articles/2018-11-23-3)
+- [基于概念知识图谱的短文本理解——王仲远](https://blog.csdn.net/TgqDT3gGaMdkHasLZv/article/details/79736982)
+
+### 2019
+- [大众点评搜索基于知识图谱的深度学习排序实践](https://www.infoq.cn/article/JZ_qdBDiMc1pHpBMDR2Q)
+- [知识图谱已成AI下一风口，但你知道它进展到哪了吗？](https://36kr.com/p/5170293)
+- [下一代 AI 系统基石：知识图谱将何去何从？](https://www.infoq.cn/article/DCf3GUp_alTIMuyxYWl3)
+- [阿里巴巴电商认知图谱揭秘](https://www.secrss.com/articles/9743)
+- [为电商而生的知识图谱，如何感应用户需求？](https://yq.aliyun.com/articles/714353?spm=a2c4e.11163080.searchblog.41.2c1c2ec1qTNAAh)
+- [阿里小蜜：知识结构化推动智能客服升级](https://www.infoq.cn/article/ocHiWF5rKuaBDxM5S28x)
+- [CCKS 2019:百度CTO王海峰详解知识图谱与语义理解](https://www.jiqizhixin.com/articles/2019-09-12-4)
+- [反守为攻！从华为知识图谱窥探AI布局](https://view.inews.qq.com/a/20190528A0SR9E00)
+
+
+
+
 
 
